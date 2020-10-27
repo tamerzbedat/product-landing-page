@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+body {}
+
+h3 {
+  color: white;
+  font-family: varela;
+  line-height: 2vw;
+}
+
+a:hover {
+  text-decoration: underline;
+  filter: brightness(150%);
+  filter: drop-shadow(8px 8px 10px white);
+}
+
+.nav-link {
+  font-family: anton;
+  color: white;
+  font-size: 30px;
+}
+
+.shop-gender {
+  font-family: anton;
+  color: white;
+}
+
+#header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 19px;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #362d2e;
+  opacity: 0.85;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+  width: 100%;
+  height: 100%;
+}
+
+#header-img {
+  width: 115px;
+}
+
+@media (max-width: 500px) {
+  body {
+    flex-wrap: wrap;
+  }
+}
+
+#shop {
+  margin-left: 13%;
+  margin-top: -20%;
+  margin-bottom: 22%;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+#shop-gender-image {
+  border-radius: 10px;
+}
+
+#timberlands-why-us {
+  border-radius: 10px;
+}
+
+.submit {
+  cursor: pointer;
+}
+
+#footer {
+  text-align: center;
+}
